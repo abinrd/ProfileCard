@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#7FC7D9;
+    background-image: url(snow.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.profile-card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    background-color:#bee0de;
+    width: 100%;
+    max-width: 370px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 50%;
+    background-color:#7FC7D9;
+    padding: 5px;
+}
+
+
+.image .profile-img{
+    height:100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile-card .text{
+    /*margin-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 5px;*/
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.text .name{
+    font-size:20px ;
+    font-weight: 400;
+}
+
+.profile-card .social{
+    align-items: center;
+    display: flex;
+}
+
+.social .link{
+    margin-left: 8px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.profile-card::before{
+    background-color:#176B87 ;
+    content: "";
+    position:absolute;
+    height: 150px;
+    width:100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+
+
+
+
+}
+   
